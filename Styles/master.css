@@ -1,0 +1,219 @@
+﻿/* ---------------------------------------------- *\
+*                     master.css                   *
+*                 Default stylesheet               *
+*             Author: Esteve / Lavidalie           *
+\* ---------------------------------------------- */
+/* ---------------------------------------------- *\
+*                     Elements                     *
+\* ---------------------------------------------- */
+/* ---------------------------------------------- *\
+*          Liens ayant la classe "button"          *
+\* ---------------------------------------------- */
+.button {
+  transition: all .2s ease; /* Effectue une transition (fondu) de 0.2 sec lors du changement de style de l'élément */
+  text-decoration: none; /* Désactive le soulignage des liens */
+  padding: 6px 12px; /* Ajoute une marge autour du texte */
+  border-radius: 11px; /* Arrondit les coins de la boîte du lien de 11 pixels */
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------- *\
+*      Liens cliqués ayant la classe "button"      *
+\* ---------------------------------------------- */
+.button:active {
+  border-width: 1px;
+  border-style: solid; /* Ajoute une bordure tout autour sur lien de 1px de large, continue et grise */
+}
+
+a:visited {
+  color: inherit;
+}
+/* ---------------------------------------------- *\
+*           Élément body (corps de page)           *
+\* ---------------------------------------------- */
+body {
+  font-family: Helvetica, Arial, sans-serif; /* Modifie la police d'écriture */
+  text-align: center; /* Aligne le texte au centre */
+}
+
+div.accessicon {
+  width: 4vw;
+  height: 2vw;
+  margin-left: 0px;
+  margin-right: auto;
+  display: flex;
+}
+/* ---------------------------------------------- *\
+*         Images ayant la classe "welcome"         *
+\* ---------------------------------------------- */
+img.welcome {
+  height: 20vh; /* Règle la hauteur de l'image à 20% de la hauteur de l'affichage */
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(2vw);
+  -ms-transform: translateX(2vw);
+  transform: translateX(2vw);
+  background-color: white;
+}
+
+input[type="email"] {
+  border-radius: 8px;
+  border: 1px solid darkgray;
+  line-height: 1.40rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  border-radius: 8px;
+  border: 1px solid darkgray;
+  line-height: 1.40rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 15px;
+}
+
+label {
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+  display: block;
+  padding: 5px;
+}
+
+/* ---------------------------------------------- *\
+*         Éléments nav (pour la navigation)        *
+\* ---------------------------------------------- */
+nav {
+  margin-top: 2vh; /* Ajoute une marge de 2% de la hauteur de l'affichage en haut de l'élément */
+  margin-bottom: 2vh; /* Ajoute une marge de 2% de la hauteur de l'affichage en bas de l'élément */
+}
+
+/* ---------------------------------------------- *\
+*        Éléments table (pour les tableaux)        *
+\* ---------------------------------------------- */
+table {
+  margin-left: auto; /* Règle automatiquement la marge gauche */
+  margin-right: auto; /* Règle automatiquement la marge gauche */
+  /* L'association des deux règles ci-dessous permet de centrer un élément au milieu de son parent */
+}
+
+/* ---------------------------------------------- *\
+*                      Classes                     *
+\* ---------------------------------------------- */
+/* ---------------------------------------------- *\
+*      Élément td enfant (indirect) de charlist     *
+\* ---------------------------------------------- */
+.charlist td {
+  border: 1px solid #000; /* Dessine un contour noir continu de 1 pixel de large autour de l'élément */
+  min-width: 5vw; /* Règle la largeur minimum de l'élément à 5% de la largeur de l'affichage */
+  width: 5vw; /* Règle la largeur de l'élément à 5% de la largeur de l'affichage */
+  min-height: 5vw; /* Règle la hauteur minimum de l'élément à 5% de la largeur de l'affichage */
+  height: 5vw; /* Règle la largeur de l'élément à 5% de la largeur de l'affichage */
+  text-align: center; /* Centre le texte au milieu de l'élément (fonctionne aussi pour les images)*/
+  font-size: 0.75rem; /* Règle la taille de police à 0.75 rem (75% de la taille de police du corps de page/élément racine) */
+  background-color: white; /* Colorise le fond en blanc */
+  border-radius: 8px; /* Arrondit les coins de 8 pixels */
+}
+/* ---------------------------------------------- *\
+*        Lien enfant (indirect) de charlist        *
+\* ---------------------------------------------- */
+.charlist a {
+  height: inherit; /* Hérite de la hauteur de l'élément parent */
+}
+/* ---------------------------------------------- *\
+*        Image enfant (indirect) de charlist       *
+\* ---------------------------------------------- */
+.charlist img {
+  border-radius: 8px;
+  height: inherit; /* Hérite de la hauteur de l'élément parent */
+  width: 5vw; /* Règle la largeur de l'image à 5% de la largeur de l'affichage */
+}
+
+.charPreview {
+  height: 164px;
+  width: 164px;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.col {
+  display: inline-grid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* ---------------------------------------------- *\
+*          Élément de classe "container"           *
+\* ---------------------------------------------- */
+.container {
+  width: 75%; /* Règle la largeur de l'élément à 50% de la largeur du parent */
+  margin-left: auto; /* Marge automatique à gauche */
+  margin-right: auto; /* Marge automatique à droite */
+}
+/* ---------------------------------------------- *\
+*           Élément de classe "content"            *
+\* ---------------------------------------------- */
+.content {
+  margin-left: auto; /* Marge automatique à gauche */
+  margin-right: auto; /* Marge automatique à droite */
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eee;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  height: inherit;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: calc(2vw - 8px);
+  width: calc(2vw - 8px);
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 100%;
+}
+
+.toggleswitch {
+  position: relative;
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+}
+
+.toggleswitch input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}

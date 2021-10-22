@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Déven Esteve -->
+<!DOCTYPE charlist SYSTEM "charlist.dtd">
+<charlist>
+  <character id="1">
+    <name>Mario</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="2">
+    <name>Donkey Kong</name>
+    <initial_game>Donkey Kong</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="3">
+    <name>Link</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="4">
+    <name>Samus</name>
+    <initial_game>Metroid</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="5">
+    <name>Dark Samus</name>
+    <initial_game>Metroid</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="6">
+    <name>Yoshi</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="7">
+    <name>Kirby</name>
+    <initial_game>Kirby</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="8">
+    <name>Fox</name>
+    <initial_game>Star Fox</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="9">
+    <name>Pikachu</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="10">
+    <name>Luigi</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="11">
+    <name>Ness</name>
+    <initial_game>Earthbound</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="12">
+    <name>Captain Falcon</name>
+    <initial_game>F-Zero</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="13">
+    <name>Jigglypuff</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros.</first_appearance>
+  </character>
+  <character id="14">
+    <name>Peach</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="15">
+    <name>Daisy</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="16">
+    <name>Bowser</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="17">
+    <name>Ice Climbers</name>
+    <initial_game>Ice Climber</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="18">
+    <name>Sheik</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="19">
+    <name>Zelda</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="20">
+    <name>Dr. Mario</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="21">
+    <name>Pichu</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="22">
+    <name>Falco</name>
+    <initial_game>Star Fox</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="23">
+    <name>Marth</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="24">
+    <name>Lucina</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="25">
+    <name>Young Link</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="26">
+    <name>Ganondorf</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="27">
+    <name>Mewtwo</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="28">
+    <name>Roy</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="29">
+    <name>Chrom</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="30">
+    <name>Mr. Game &amp; Watch</name>
+    <initial_game>Game &amp; Watch</initial_game>
+    <first_appearance>Super Smash Bros. Melee</first_appearance>
+  </character>
+  <character id="31">
+    <name>Meta Knight</name>
+    <initial_game>Kirby</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="32">
+    <name>Pit</name>
+    <initial_game>Kid Icarus</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="33">
+    <name>Dark Pit</name>
+    <initial_game>Kid Icarus</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="34">
+    <name>ZSS</name>
+    <initial_game>Metroid</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="35">
+    <name>Wario</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="36">
+    <name>Snake</name>
+    <initial_game>Metal Gear Solid</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="37">
+    <name>Ike</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <!-- Romain Lavidalie -->
+  <character id="38">
+    <name>Diddy Kong</name>
+    <initial_game>Donkey Kong</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="39">
+    <name>Lucas</name>
+    <initial_game>Earthbound</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="40">
+    <name>Sonic</name>
+    <initial_game>Sonic The Hedgehog</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="41">
+    <name>King Dedede</name>
+    <initial_game>Kirby</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="42">
+    <name>Olimar</name>
+    <initial_game>Pikmin</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="43">
+    <name>Lucario</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="44">
+    <name>R.O.B.</name>
+    <initial_game>Famicom Accessory</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="45">
+    <name>Toon Link</name>
+    <initial_game>The Legend of Zelda</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="46">
+    <name>Wolf</name>
+    <initial_game>Star Fox</initial_game>
+    <first_appearance>Super Smash Bros. Brawl</first_appearance>
+  </character>
+  <character id="47">
+    <name>Villager</name>
+    <initial_game>Animal Crossing</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="48">
+    <name>Mega Man</name>
+    <initial_game>Mega Man</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="49">
+    <name>Wii Fit Trainer</name>
+    <initial_game>Wii Fit</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="50">
+    <name>Rosalina And Luma</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="51">
+    <name>Little Mac</name>
+    <initial_game>Punch-Out!!</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="52">
+    <name>Greninja</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="53">
+    <name>Mii Fighter</name>
+    <initial_game>Mii Plaza</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="54">
+    <name>Palutena</name>
+    <initial_game>Kid Icarus</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="55">
+    <name>Pac-Man</name>
+    <initial_game>Pac-Man</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="56">
+    <name>Robin</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="57">
+    <name>Shulk</name>
+    <initial_game>Xenoblade</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="58">
+    <name>Bowser Jr.</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="59">
+    <name>Duck Hunt</name>
+    <initial_game>Duck Hunt</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="60">
+    <name>Ryu</name>
+    <initial_game>Street Fighter</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="61">
+    <name>Ken</name>
+    <initial_game>Street Fighter</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="62">
+    <name>Cloud</name>
+    <initial_game>Final Fantasy</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="63">
+    <name>Corrin</name>
+    <initial_game>Fire Emblem</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="64">
+    <name>Bayonetta</name>
+    <initial_game>Bayonetta</initial_game>
+    <first_appearance>Super Smash Bros. 4</first_appearance>
+  </character>
+  <character id="65">
+    <name>Inkling</name>
+    <initial_game>Splatoon</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="66">
+    <name>Ridley</name>
+    <initial_game>Metroid</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="67">
+    <name>Simon</name>
+    <initial_game>Castlevania</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="68">
+    <name>Richter</name>
+    <initial_game>Castlevania</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="69">
+    <name>King K. Rool</name>
+    <initial_game>Donkey Kong</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="70">
+    <name>Isabelle</name>
+    <initial_game>Animal Crossing</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="71">
+    <name>Incineroar</name>
+    <initial_game>Pokemon</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="72">
+    <name>Piranha Plant</name>
+    <initial_game>Super Mario</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+  <character id="73">
+    <name>Joker</name>
+    <initial_game>Persona</initial_game>
+    <first_appearance>Super Smash Bros. Ultimate</first_appearance>
+  </character>
+</charlist>

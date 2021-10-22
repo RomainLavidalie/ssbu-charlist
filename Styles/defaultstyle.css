@@ -1,0 +1,67 @@
+/* Déven Estève Romain Lavidalie*/
+
+body {
+  background: url("../Images/mark.svg") no-repeat fixed padding-box center; /* Ajoute une image en fond */
+}
+
+/* ---------------------------------------------- *\
+*        Éléments span ayant la classe group       *
+\* ---------------------------------------------- */
+span.group {
+  color: gray; /* Change la couleur du texte en gris */
+}
+
+/* ---------------------------------------------- *\
+*        Éléments span ayant la classe name        *
+\* ---------------------------------------------- */
+span.name {
+  color: #388faa; /* Change la couleur du texte en un bleu personnalisé */
+}
+
+/* ---------------------------------------------- *\
+*          Liens ayant la classe "button"          *
+\* ---------------------------------------------- */
+
+a[href="https://www.nintendo.com/"] {
+  color: #E60012;
+}
+
+.button {
+  color: white !important; /* Colorise le texte des liens "button" en blanc */
+  background-color: black; /* Colorise le fond du lien en noir */
+  border-color: darkgray;
+}
+
+/* ---------------------------------------------- *\
+*      Liens survolés avec la classe "button"      *
+\* ---------------------------------------------- */
+.button:hover {
+  background-color: gray; /* Change le fond en gris */
+}
+
+/* ---------------------------------------------- *\
+*      Liens cliqués ayant la classe "button"      *
+\* ---------------------------------------------- */
+.button:active {
+  background-color: lightgrey; /* Change la couleur du fond en gris */
+  border-color: grey; /* Ajoute une bordure tout autour sur lien de 1px de large, continue et grise */
+}
+
+/* ---------------------------------------------- *\
+*           Élément de classe "moveset"            *
+\* ---------------------------------------------- */
+.moveset {
+  box-shadow: 2px 2px 3px lightgrey; /* Crée une ombre sous les limites l'élément (décalage verticale et horizontal de 2 pixels, flou de 3 pixels, couleur gris clair) */
+  background-color: white; /* Colorise le fond en blanc */
+}
+
+.moveset tr:hover {
+  background-color: #EEE;
+}
+
+/* ---------------------------------------------- *\
+*     Éléments tr td et th enfants de moveset      *
+\* ---------------------------------------------- */
+.moveset tr, .moveset td, .moveset th {
+  background-color: transparent; /* Rend le fond transparent */
+}

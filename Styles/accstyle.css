@@ -1,0 +1,61 @@
+/* Déven Estève Romain Lavidalie*/
+
+body {
+  filter: grayscale(100%);
+  background-color: black;
+  color: white;
+}
+
+a[href="https://www.nintendo.com/"] {
+  color: white;
+}
+
+a[href="https://www.nintendo.com/"]:visited {
+  color: white;
+}
+
+/* ---------------------------------------------- *\
+*          Liens ayant la classe "button"          *
+\* ---------------------------------------------- */
+
+
+.button {
+  color: white !important; /* Colorise le texte des liens "button" en blanc */
+  background-color: black; /* Colorise le fond du lien en noir */
+  border: 2px solid white;
+}
+
+/* ---------------------------------------------- *\
+*      Liens survolés avec la classe "button"      *
+\* ---------------------------------------------- */
+.button:hover {
+  background-color: gray; /* Change le fond en gris */
+}
+
+/* ---------------------------------------------- *\
+*      Liens cliqués ayant la classe "button"      *
+\* ---------------------------------------------- */
+.button:active {
+  background-color: lightgrey; /* Change la couleur du fond en gris */
+  border-color: grey; /* Ajoute une bordure tout autour sur lien de 1px de large, continue et grise */
+}
+
+img#welcome[src="Images/Assets/EveryoneIsHere.png"] {
+  filter: invert(100%);
+}
+
+input:checked + .slider {
+  filter: invert(100%);
+}
+
+/* ---------------------------------------------- *\
+*           Élément de classe "moveset"            *
+\* ---------------------------------------------- */
+.moveset {
+  box-shadow: none; /* Crée une ombre sous les limites l'élément (décalage verticale et horizontal de 2 pixels, flou de 3 pixels, couleur gris clair) */
+  background-color: black; /* Colorise le fond en blanc */
+}
+
+label::after {
+  filter: invert(100%);
+}

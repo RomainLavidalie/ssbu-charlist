@@ -1,0 +1,77 @@
+<!-- Déven Estève -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <base href="../../">
+  </base>
+  <title>SSBU:CL | New Character</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Esteve / Lavidalie" />
+  <link rel="stylesheet" href="Styles/master.css" />
+  <link id="defaultColor" type="text/css" rel="stylesheet" media="all" title="Default Color Scheme" href="Styles/defaultstyle.css" />
+  <noscript>
+    <link id="alternateColor" type="text/css" rel="stylesheet" media="all" title="Colorblind Accessibility Color Scheme" href="Styles/accstyle.css" />
+  </noscript>
+  <script type="application/javascript" src="Javascript/accessibilityStyle.js"></script>
+  <script type="application/javascript" src="Javascript/forms.js"></script>
+  <style media="screen">
+    #characterImg {
+      width: inherit;
+      height: inherit;
+      display: inline;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title">Super Smash Bros. Ultimate Character List</h1>
+    <br />
+    <h3>Add a new Character</h3>
+  </div>
+  <br />
+  <nav>
+    <a href="index.xhtml" class="button">Home</a>
+  </nav>
+  <br />
+  <div class="content container">
+    <form method="post" action="Content/Forms/newChar.xhtml">
+      <div class="row">
+        <div class="col">
+          <label for="charName">Character Name:</label>
+          <input type="text" id="charName" name="characterName" />
+          <label for="initGame">Initial Game:</label>
+          <input type="text" id="initGame" name="initialGame" />
+          <label for="firstApp">First Appearance:</label>
+          <input type="text" id="firstApp" name="firstAppearance" />
+        </div>
+        <div class="col">
+          <label for="ultSmash">Ultimate Smash:</label>
+          <input type="text" id="ultSmash" name="ultimateSmash" />
+          <label for="neutB">Neutral B:</label>
+          <input type="text" id="neutB" name="neutralB" />
+          <label for="sideB">Side B:</label>
+          <input type="text" id="sideB" name="sideB" />
+          <label for="upB">Up B:</label>
+          <input type="text" id="upB" name="upB" />
+          <label for="downB">Down B:</label>
+          <input type="text" id="downB" name="downB" />
+        </div>
+        <div class="col">
+          <div class="charPreview">
+            <img src="" alt="Preview of " id="characterImg"/>
+          </div>
+          <input type="file" name="charImage" id="charImg" onchange="readURL();" />
+        </div>
+      </div>
+      <input type="button" name="preview" id="preview" value="Preview" class="button" onclick="previewNewChar();" />
+      <input type="submit" name="submit" value="Submit" class="button" />
+    </form>
+  </div>
+</body>
+
+</html>

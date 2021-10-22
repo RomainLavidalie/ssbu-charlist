@@ -1,0 +1,46 @@
+<!-- Romain Lavidalie -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <base href="../../"></base>
+  <title>Visitors Book</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Esteve / Lavidalie" />
+  <link rel="stylesheet" href="Styles/master.css" />
+  <link rel="stylesheet" href="Styles/character.css" />
+  <link id="defaultColor" type="text/css" rel="stylesheet" media="all" title="Default Color Scheme" href="Styles/defaultstyle.css" />
+  <noscript>
+    <link id="alternateColor" type="text/css" rel="stylesheet" media="all" title="Colorblind Accessibility Color Scheme" href="Styles/accstyle.css" />
+  </noscript>
+  <script type="application/javascript" src="Javascript/accessibilityStyle.js"></script>
+  <script type="application/javascript" src="Javascript/forms.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title">Super Smash Bros. Ultimate Character List</h1>
+    <br />
+    <h3>Visitors Book</h3>
+  </div>
+  <br />
+  <nav>
+    <a href="index.xhtml" class="button">Home</a>
+  </nav>
+  <br />
+  <div class="content container">
+    <form onsubmit="previewVisitorsBook();" method="post" target="_blank">
+      <label id="name">Your name : </label>
+      <input id="name" type="text"/><br />
+      <label id="email">Your e-mail : </label>
+      <input id="email" type="email"/><br />
+      <label id="msg">Leave a message for the site's authors : </label>
+      <textarea id="msg" rows="20" cols="80"/><br />
+      <input type="submit" class="button" />
+    </form>
+  </div>
+</body>
+
+</html>

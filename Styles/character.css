@@ -1,0 +1,70 @@
+/* Déven Estève Romain Lavidalie*/
+
+/* ---------------------------------------------- *\
+*           Élément de classe "moveset"            *
+\* ---------------------------------------------- */
+.moveset {
+  width: 50%; /* Règle la largeur à 50% de la largeur disponible au sein de l'élément parent */
+  border-radius: 8px; /* Arrondit les coins de 8 pixels */
+  border-collapse: collapse; /* Directive permettant de coller les cellules d'un tableau */
+  transition: all .2s ease;
+}
+
+/* ---------------------------------------------- *\
+*     Éléments tr td et th enfants de moveset      *
+\* ---------------------------------------------- */
+.moveset tr, .moveset td, .moveset th {
+  font-size: 1em; /* Taille de police correspondant à 1 fois la taille de police définie dans le body */
+  width: auto; /* largeur automatique des cellules en fonction de la largeur du tableau */
+  transition: all .25s ease;
+}
+
+.moveset>tbody>tr:first-child, .moveset>tbody>tr:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.moveset>tbody>tr:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.moveset>tbody>tr:first-child>th>img {
+width: 50%;
+}
+
+.moveset>tbody>tr:first-child>th {
+  border-top-left-radius: 8px;
+}
+
+.moveset>tbody>tr:last-child>th {
+  border-bottom-left-radius: 8px;
+}
+
+.moveset>tbody>tr:first-child>td {
+  border-top-right-radius: 8px;
+}
+
+.moveset>tbody>tr:last-child>td {
+  border-bottom-right-radius: 8px;
+}
+
+/* ---------------------------------------------- *\
+*          Éléments th enfants de moveset          *
+\* ---------------------------------------------- */
+.moveset th {
+  width: 30%; /* Règle la largeur à 30% de la largeur du tableau parent (overwrite la directive des insctructions précédentes) */
+}
+/* ---------------------------------------------- *\
+*         Éléments img enfants de moveset          *
+\* ---------------------------------------------- */
+.moveset img {
+  width: inherit; /* Hérite de la largeur de l'élément parent */
+}
+/* ---------------------------------------------- *\
+*         Éléments span enfants de moveset         *
+\* ---------------------------------------------- */
+.moveset span {
+  position: absolute; /* Règle la position de l'él&ment sur absolue, ne dépend plusde l'alignement de l'élément parent ou des éléments siblings*/
+  margin-top: 2vh; /* Ajoute une marge de 2% de la hauteur d'affichage en haut */
+}
